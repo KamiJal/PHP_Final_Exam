@@ -1,0 +1,25 @@
+html {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-fluid {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
